@@ -5,5 +5,7 @@
 | `np.shape()`          | **dimension** of nd-array      |
 | `np.mean()`           | **mean** of nd-array           |
 | `<NDarray>.ndim`      | dimension of nd-array          |
+| `<2Darray>[:, 0]`     | fetches all row's first element |
+
 
 
