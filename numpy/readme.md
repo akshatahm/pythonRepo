@@ -9,6 +9,10 @@
 
 
 #### Examples:
+|4 | `<NDarray>.ndim`      | dimension of nd-array          |
+```python
 
+
+```
 
 
