@@ -1,12 +1,12 @@
 #### Imp functions:
-|#| Function name         | Description                     | Example below (y/n)          |
-|--| --------------------- | ------------------------------ |-----------------------------|
-|1 | `np.arrays()`         | creates nd-array               |n|
-|2 | `np.shape()`          | **dimension** of nd-array      |n|
-|3 | `np.mean()`           | **mean** of nd-array           |n|
-|4 | `<NDarray>.ndim`      | dimension of nd-array          |y|
-|5 | `<2Darray>[:, 0]`     | fetches all row's first element |y|
-|6 | `<2Darray>[:, 0]=9`     | assigns '9' to all row's first element |y|
+|# | Function Type         | Function name                  | Description                 | Example below (y/n)         |
+|--| --------------------- | ------------------------------ |-----------------------------|-----------------------------|
+|1 | Create nd-array       |  `np.arrays()`                 | creates nd-array            |n|
+|2 | Shape/dimesnsion      |  `np.shape()`                  | **dimension** of nd-array   |n|
+|3 | Mean                  |  `np.mean()`                   | **mean** of nd-array        |n|
+|4 | Shape/dimesnsion      |  `<NDarray>.ndim`              | dimension of nd-array       |y|
+|5 | Slicing               |  `<2Darray>[:, 0]`             | fetches all row's first element |y|
+|6 | Assignment            |  `<2Darray>[:, 0]=9`           | assigns '9' to all row's first element |y|
 
 
 #### Examples:
