@@ -6,7 +6,8 @@
 |3 | Mean                  |  `np.mean()`                   | **mean** of nd-array        |n|
 |4 | Shape/dimesnsion      |  `<NDarray>.ndim`              | dimension of nd-array       |y|
 |5 | Slicing               |  `<2Darray>[:, 0]`             | fetches all row's first element |y|
-|6 | Assignment            |  `<2Darray>[:, 0]=9`           | assigns '9' to all row's first element |y|
+|6 | Element-wise assignment|  `<2Darray>[:, 0]=9`          | assigns '9' to all row's first element |y|
+|7 | Element-wise addition |  `<2Darray> + 2`               | adds '2' to all elements individually |y|
 
 
 #### Examples:
