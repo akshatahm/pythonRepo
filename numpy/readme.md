@@ -6,7 +6,7 @@
 
 <br>
 
-#### Imp functions:
+#### Imp Basic Numpy functions:
 |# | Function Type         | Function name                  | Description                     | Example below (y/n)         |
 |--| --------------------- | ------------------------------ |---------------------------------|-----------------------------|
 |1 | Create nd-array       |  `np.arrays()`                 | creates nd-array                |n|
