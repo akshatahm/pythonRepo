@@ -2,8 +2,9 @@
 
 2. Imp functions:
    - DataFrame(data, index, columns, dtype, copy)
-   - df.loc['']
-   - df.iloc[]
-   - df[['']]
+   - df.loc['*Label*']
+   - df.iloc[*index*]
+   - df[['*label1*', '*label2*', '*label3*']]
    - 
+
 
