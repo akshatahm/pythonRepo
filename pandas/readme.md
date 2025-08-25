@@ -1,15 +1,47 @@
 1. **Pandas** is a python library used to work with **tabular** data, also its sued to manipulate and analyze the tabular data.
 
 2. Imp functions:
-   - DataFrame(data, index, columns, dtype, copy)
-   - df.loc['*Label*']
-   - df.iloc[*index*]
-   - df[['*label1*', '*label2*', '*label3*']]
-   - Working with Missing Data:
-     - isnull(): It returns True for NaN (missing) values and False otherwise.
-     - notnull(): It returns the opposite, True for non-missing values and False for NaN values.
-   - Filling Missing Values using fillna(), dropna():
-   - Iterating over rows and columns:
-     - iterrows()
-     - itertuples()
+
+- Reading Data:
+   - pd.read_csv('file.csv')
+   - pd.read_excel('file.xlsx')
+   - pd.read_json('file.json')
+ 
+ - Inspecting Data:
+   - df.head()       # First 5 rows
+   - df.tail()       # Last 5 rows
+   - df.info()       # Summary
+   - df.describe()   # Stats
+   - df.shape        # Rows x Columns
+
+ - Selecting  Data:
+   - df['column']            # Single column
+   - df[['col1', 'col2']]    # Multiple columns
+   - df.iloc[0]              # Row by index
+   - df.loc[0, 'column']     # Specific value
+  
+ - Cleaning  Data:
+   - df.dropna()             # Remove missing
+   - df.fillna(0)            # Fill missing
+   - df.rename(columns={'old': 'new'})
+   - df['col'] = df['col'].astype(int)
+  
+ - Filtering & Querying Data:
+   - df[df['Age'] > 25]
+   - df.query('Age > 25')
+  
+ - Grouping & Aggregation
+   - df.groupby('column').mean()
+   - df.pivot_table(values='val', index='row', columns='col')
+
+ - Merging & Joining
+   - pd.concat([df1, df2])
+   - df1.merge(df2, on='key')
+
+ - Visualization (with Matplotlib)
+   - df['Age'].plot(kind='hist')
+   - df.plot(x='Name', y='Age', kind='bar')
+
+
+
 
