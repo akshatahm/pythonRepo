@@ -29,6 +29,7 @@
  - Filtering & Querying Data:
    - df[df['Age'] > 25]
    - df.query('Age > 25')
+   - df[df['Name'].astype(str).str.contains('A')]
   
  - Grouping & Aggregation
    - df.groupby('column').mean()
@@ -41,6 +42,7 @@
  - Visualization (with Matplotlib)
    - df['Age'].plot(kind='hist')
    - df.plot(x='Name', y='Age', kind='bar')
+
 
 
 
